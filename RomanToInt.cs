@@ -8,7 +8,14 @@ namespace LeetCode
 {
     public class Solution
     {
-        public int RomanToInt(string s)
+
+        public static void Main()
+        {
+            Solution s = new Solution();
+            s.RomanToInt("IIIIVXLC");
+        }
+
+            public int RomanToInt(string s)
         {
             var dictionary = new Dictionary<char, int>();
 
